@@ -41,12 +41,12 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'cesarneri803@gmail.com';
-    $mail->Password = 'kyoi thod ximj mipk';
+    $mail->Username = 'cesarnerisanchez127@gmail.com';
+    $mail->Password = 'zfrw yhfz jnak mimh';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
-    $mail->setFrom('cesarneri803@gmail.com', 'Family Drywall');
+    $mail->setFrom('cesarnerisanchez127@gmail.com', 'Family Drywall');
     $mail->addAddress($correo_cliente);
     $mail->addAttachment($file_path);
 
